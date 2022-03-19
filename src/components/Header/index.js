@@ -51,4 +51,17 @@ function Header(props) {
     );
   }
 
-export default Header;
+  export default Header({
+    Home: {
+      screen: HomeScreen
+    },
+  }, {
+    navigationOptions: {
+      headerBackground: () => (
+        <Image
+          style={StyleSheet.absoluteFill}
+          source={{ uri: 'https://upload.wikimedia.org/wikipedia/commons/3/36/Hopetoun_falls.jpg' }}
+        />
+      ),
+    }
+  });
