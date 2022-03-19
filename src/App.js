@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
-import Projects from './components/Projects';
-import Footer from './components/Footer';
+//import Projects from './components/Projects';
+//import Footer from './components/Footer';
 
 function App() {
 
@@ -9,8 +9,8 @@ function App() {
     <div>
       <main>
         <Header></Header>
-        <Projects></Projects>
-        <Footer></Footer>
+        {/* <Projects></Projects>
+        <Footer></Footer> */}
       </main>
     </div>
   );
