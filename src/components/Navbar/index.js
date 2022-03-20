@@ -6,6 +6,7 @@ function Navbar () {
       <section className="navbar">
         <a href="/about" className="navbar-item">About</a>
         <a href="/projects" className="navbar-item">Portfolio</a>
+        <a href="/resume" className="navbar-item">Resume</a>
         <a href="/contact" className="navbar-item">Contact</a>
     </section>
     )
