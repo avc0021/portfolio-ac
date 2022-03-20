@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../Navbar'
+import logo from '../../assets/ac1/logo.png';
 
 
 function Header () {
@@ -8,7 +9,9 @@ function Header () {
       <section className="header">
         <section className="header-top">
           <section className="header-top__logo">
-            <a href="/about" className="header-logo">Adam Castro</a>
+            <a href="/about" className="header-logo">
+            <img src={logo} className="my-2" style={{ width: "105%" }} alt="cover" />
+            </a>
           </section>
           <section className="header-top__navbar">
             <section className="header-top__navigation">
