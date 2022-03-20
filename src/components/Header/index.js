@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../Navbar'
-//import { capitalizeFirstLetter } from '../../utils/helpers';
+
 
 function Header () {
 
