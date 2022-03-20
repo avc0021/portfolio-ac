@@ -4,7 +4,7 @@ import Header from './components/Header';
 import About from './components/About';
 
 import Projects from './components/Projects';
-//import Contact from './components/Contact'
+import Contact from './components/Contact'
 //import Footer from './components/Footer';
 
 function App() {
@@ -20,9 +20,9 @@ function App() {
             <Route path='/projects'>
               <Projects/>
             </Route>
-            {/* <Route path='/contact'>
+            <Route path='/contact'>
               <Contact/>
-            </Route> */}
+            </Route> 
           </Switch>
         </div>
       </div>
