@@ -1,28 +1,35 @@
 import React from 'react';
-import { Route, Switch } from "react-router";
-//import Header from './components/Header';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Header from './components/Header';
 import About from './components/About';
-y
+
 import Projects from './components/Projects';
 //import Contact from './components/Contact'
 //import Footer from './components/Footer';
 
-export default function App() {
+function App() {
   return (
-  <Switch>
-    <Route exact path="/projects">
-      <Projects/>
-    </Route>
-    <Route path="/about">
-      <About />
-    </Route>
-    {/* <Route path="/:user">
-      <User />
-    </Route>
-    <Route>
-      <NoMatch />
-    </Route> */}
-  </Switch>
-);
-  }  
+    <Router>
+      <div className= 'App'>
+        <Header/>
+        <div className='content'>
+          <Switch>
+            <Route path='/about'>
+              <About/>
+            </Route>
+            <Route path='/projects'>
+              <Projects/>
+            </Route>
+            {/* <Route path='/contact'>
+              <Contact/>
+            </Route> */}
+          </Switch>
+        </div>
+      </div>
+    </Router>
+
+  );
+}  
+
+export default App;
 
