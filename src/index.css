@@ -123,8 +123,8 @@ img {
     padding: 20px 20px 20px 20;
     border-radius: 1%;
     background-color:#fff9f69c;
-    box-shadow: 5px 5px 8px #888888;
-    
+    box-shadow: 5px 5px 8px #020202;
+    text-shadow: rgb(252, 249, 249) 0px 0px 10px;
 }
 
 .my-5 {
@@ -148,6 +148,32 @@ h4 {
 ul {
   padding:0;
   list-style: none;
+}
+
+.p-1 {
+  float: left; 
+  padding: 20px 20px 20px 20;
+  border-radius: 1%;
+  background-color:#fff9f69c;
+  box-shadow: 5px 5px 8px #020202;
+  text-shadow: rgb(252, 249, 249) 0px 0px 10px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+.p-1 {
+  padding: 20px 20px 20px 20;
+}
+
+.contact-c {
+  float:left; 
+  padding: 20px 20px 20px 20;
+  border-radius: 1%;
+  background-color:#fff9f69c;
+  box-shadow: 5px 5px 8px #020202;
+  text-shadow: rgb(252, 249, 249) 0px 0px 10px;
+  position: center;
 }
 .footer-social-icons {
   width: 350px;
