@@ -8,10 +8,18 @@ function Projects () {
 
     return (
       <section className="projects">
+              <div className="p-1">
               <Project1/>
+              </div>
+              <div className="p-1">
               <Project2/>
+              </div>
+              <div className="p-1">
               <Project3/>
+              </div>
+              <div className="p-1">
               <Project4/>
+              </div>
       </section>
     )
   }

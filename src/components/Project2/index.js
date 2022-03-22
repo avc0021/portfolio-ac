@@ -9,7 +9,7 @@ function Project2 () {
           <div className="sna">
             <h3 className="sna-1">Social Network API</h3>
             <p>An app that tells you what is in the stars above you based on your geolocation or city input.</p>
-            <a href="https://github.com/coevpen/my-night-sky">View Project on GitHub</a>
+            <a href="https://github.com/avc0021/Social-Network-API">View Project on GitHub</a>
           </div>
       </section>
     )

@@ -4,7 +4,7 @@ import React from 'react';
 function Project1 () {
 
     return (
-      <section className="projects">
+      <section className="p-p">
           <h1 id="portfolio">Portfolio</h1>
           <div className="mns">
             <h3 className="mns-1">My Night Sky</h3>
