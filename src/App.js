@@ -11,9 +11,12 @@ function App() {
   return (
     <Router>
       <div className= 'App'>
-        <Header/>
+        <Header/> 
         <div className='content'>
           <Switch>
+          <Route exact path='/'>
+              <About/>
+            </Route>
             <Route path='/about'>
               <About/>
             </Route>
