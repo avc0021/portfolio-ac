@@ -14,11 +14,21 @@ function App() {
         <Header/> 
         <div className='content'>
           <Switch>
-            <Route exact path="/" component={About} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/projects" component={Projects} />
-            <Route exact path="/resume" component={Resume} />
-            <Route exact path="/contact" component={Contact} />
+          <Route path="/">
+              <About />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/projects">
+              <Projects />
+            </Route>
+            <Route path="/resume">
+              <Resume />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
           </Switch>
         </div>
         <Footer/>
