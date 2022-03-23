@@ -30,12 +30,9 @@ body {
   background-image: url('./assets/background/mtn2.jpg');
   width: 100%;
   height: 100%;
-  color: var(--light);
   position: relative;
   min-height: 100vh;
-
 }
-
 
 .header {
   margin-top: 20px;
@@ -110,12 +107,8 @@ img {
   float: left; 
 }
 
-.footer {
-  align-items: center;
-  position: absolute;
-  padding: 10px 10px 0px 10px;
-  bottom: 0;
-  width: 100%;
+footer {
+  margin-top: 100px;
 }
 
 .my-2 {
@@ -132,23 +125,19 @@ img {
   margin-bottom: 50px;
   margin-right: 50px;
   margin-left: 80px;
-
 }
 
 .allResume {
- 
   margin-right: 500px;
   border-radius: 1%;
   background-color:#fff9f69c;
   box-shadow: 5px 5px 8px #020202;
   text-shadow: rgb(252, 249, 249) 0px 0px 10px;
-
 }
 
 h1 {
   padding: 0 0 0 70px;
   font-size:xx-large;
-  
 }
 
 h2, h3 {
@@ -168,13 +157,14 @@ h4 {
 .front, .back, .other {
   padding: 0 0 0 70px;
 }
+
 ._12 {
   font-size: 1.2em;
 }
+
 ._14 {
   font-size: 1.4em;
 }
-
 
 .p-1 {
   float: left; 
@@ -206,10 +196,31 @@ h4 {
   padding: 50px 0 0 0;
 }
 
+.projects-bt, .projects-iru {
+  margin-right: 500px;
+}
+
 .portfolio {
  padding: 0px 50px 0px 70px;
  text-decoration: underline;
 
+}
+
+.contact-c {
+  width:30%;
+  padding: 0 30px 30px 30px;
+  margin-top: 40px;
+  margin-left: 500px;
+
+  padding: 10px;
+}
+
+.input {
+  padding: 5px 5px 5px 10px;
+}
+
+.submit {
+  
 }
 
 .footer-social-icons {
@@ -217,21 +228,30 @@ h4 {
   display:block;
   margin: 0 auto;
 }
+
 .social-icon {
   color: #fff;
 }
+
+.social-icons {
+  padding: 400px 0 0 0;
+}
+
 ul.social-icons {
   margin-top: 10px;
 }
+
 .social-icons li {
   vertical-align: top;
   display: inline;
   height: 100px;
 }
+
 .social-icons a {
   color: #fff;
   text-decoration: none;
 }
+
 .fa-github {
   padding:10px 14px;
   -o-transition:.5s;
@@ -241,6 +261,7 @@ ul.social-icons {
   transition: .5s;
   background-color: #322f30;
 }
+
 .fa-github:hover {
   background-color: #3d5b99;
 }
@@ -254,9 +275,11 @@ ul.social-icons {
   transition: .5s;
   background-color: #322f30;
 }
+
 .fa-linkedin:hover {
   background-color: #0073a4;
 }
+
 .fa-instagram {
   padding:10px 14px;
   -o-transition:.5s;
@@ -266,6 +289,7 @@ ul.social-icons {
   transition: .5s;
   background-color: #322f30;
 }
+
 .fa-instagram:hover {
   background-color: #e25714;
 }
