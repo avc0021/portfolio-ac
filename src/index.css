@@ -206,6 +206,9 @@ h4 {
   padding: 50px 0 0 0;
 }
 
+.projects-bt, .projects-iru {
+  margin-right: 500px;
+}
 .portfolio {
  padding: 0px 50px 0px 70px;
  text-decoration: underline;
