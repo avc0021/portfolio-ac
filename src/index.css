@@ -130,25 +130,51 @@ img {
 .my-5 {
   
   margin-bottom: 50px;
-  margin-right: 150px;
+  margin-right: 50px;
   margin-left: 80px;
 
+}
+
+.allResume {
+ 
+  margin-right: 500px;
+  border-radius: 1%;
+  background-color:#fff9f69c;
+  box-shadow: 5px 5px 8px #020202;
+  text-shadow: rgb(252, 249, 249) 0px 0px 10px;
+
+}
+
+h1 {
+  padding: 0 0 0 70px;
+  font-size:xx-large;
+  
+}
+
+h2, h3 {
+  padding: 0 0 0 70px;
+  font-size: larger;
+  font-style: italic;
+}
+
+.descr {
+  padding: 0 0 0 70px;
 }
 
 h4 {
   margin: 1% 0 1% 0;
 }
 
+.front, .back, .other {
+  padding: 0 0 0 70px;
+}
 ._12 {
   font-size: 1.2em;
 }
 ._14 {
   font-size: 1.4em;
 }
-ul {
-  padding:0;
-  list-style: none;
-}
+
 
 .p-1 {
   float: left; 
@@ -175,6 +201,17 @@ ul {
   text-shadow: rgb(252, 249, 249) 0px 0px 10px;
   position: center;
 }
+
+.projects-m {
+  padding: 50px 0 0 0;
+}
+
+.portfolio {
+ padding: 0px 50px 0px 70px;
+ text-decoration: underline;
+
+}
+
 .footer-social-icons {
   width: 350px;
   display:block;

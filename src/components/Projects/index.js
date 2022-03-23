@@ -7,7 +7,7 @@ import Project4 from '../Project4'
 function Projects () {
 
     return (
-      <section className="projects">
+      <section className="projects-m">
               <div className="p-1">
               <Project1/>
               </div>
