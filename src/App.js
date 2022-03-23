@@ -7,7 +7,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact'
 import Footer from './components/Footer';
 
-const App = () => {
+function App() {
   return (
     <Router>
       <div className= 'App'>
