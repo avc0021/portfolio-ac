@@ -121,10 +121,7 @@ footer {
 }
 
 .my-5 {
-  
-  margin-bottom: 50px;
-  margin-right: 50px;
-  margin-left: 80px;
+  padding: 100px 0 0 100px;
 }
 
 .allResume {
@@ -155,7 +152,7 @@ h4 {
 }
 
 .front, .back, .other {
-  padding: 0 0 0 70px;
+  padding: 10px 10px 10px 70px;
 }
 
 ._12 {
