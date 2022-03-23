@@ -176,7 +176,6 @@ h4 {
   margin-bottom: 50px;
   margin-right: 150px;
   margin-left: 80px;
-  padding: 20px 20px 20px 20;
 }
 
 .contact-c {
@@ -327,6 +326,24 @@ ul.social-icons {
 
 .fa-instagram:hover {
   background-color: #e25714;
+}
+
+@media only screen and (min-width: 1200px) {
+  .p-1 {
+    float: left; 
+    padding: 20px 20px 20px 20;
+    border-radius: 1%;
+    background-color:#fff9f69c;
+    box-shadow: 5px 5px 8px #020202;
+    text-shadow: rgb(252, 249, 249) 0px 0px 10px;
+    margin-bottom: 50px;
+    margin-right: 550px;
+    margin-left: 80px;
+  }
+  .social-icons {
+    padding: 600px 0 0 0;
+  }
+
 }
 
 
