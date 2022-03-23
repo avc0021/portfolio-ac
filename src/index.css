@@ -169,12 +169,12 @@ h4 {
 .p-1 {
   float: left; 
   padding: 20px 20px 20px 20;
-  border-radius: 1%;
+  border-radius: 0.5%;
   background-color:#fff9f69c;
   box-shadow: 5px 5px 8px #020202;
   text-shadow: rgb(252, 249, 249) 0px 0px 10px;
   margin-bottom: 50px;
-  margin-right: 150px;
+  margin-right: 950px;
   margin-left: 80px;
 }
 
@@ -268,7 +268,7 @@ h4 {
 }
 
 .social-icons {
-  padding: 400px 0 0 0;
+  padding: 600px 0 0 0;
 }
 
 ul.social-icons {
@@ -328,23 +328,56 @@ ul.social-icons {
   background-color: #e25714;
 }
 
-@media only screen and (min-width: 1200px) {
-  .p-1 {
+@media screen and (max-width: 980px) {
+  .p-p {
     float: left; 
-    padding: 20px 20px 20px 20;
-    border-radius: 1%;
+  padding: 2020px 20px 20px 20;
+  border-radius: 0.5%;
+  background-color:#fff9f69c;
+  box-shadow: 5px 5px 8px #020202;
+  text-shadow: rgb(252, 249, 249) 0px 0px 10px;
+  margin-bottom: 50px;
+  margin-right: 0px;
+  margin-left: 80px;
+  }
+}
+  @media screen and (max-width: 768px) {
+    .p-p {
+      float: left; 
+    padding: 2020px 20px 20px 20;
+    border-radius: 0.5%;
     background-color:#fff9f69c;
     box-shadow: 5px 5px 8px #020202;
     text-shadow: rgb(252, 249, 249) 0px 0px 10px;
     margin-bottom: 50px;
-    margin-right: 550px;
+    margin-right: 0px;
     margin-left: 80px;
+    }
   }
-  .social-icons {
-    padding: 600px 0 0 0;
-  }
+  @media screen and (max-width: 575px) {
 
+    .header-logo {
+      
+      width: 10000%;
+    }
+  
+    .section-title {
+      width: 95%;
+    }
+  
+    .contact-info {
+      text-align: center;
+    }
+  
+    .contact-info > * {
+      flex: 0 100%;
+    }
+    .contact-form {
+      order: 3;
+  }
 }
+
+
 
 
 
