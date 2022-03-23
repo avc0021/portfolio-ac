@@ -110,12 +110,10 @@ img {
   float: left; 
 }
 
-.footer {
-  align-items: center;
-  position: absolute;
-  padding: 10px 10px 0px 10px;
-  bottom: 0;
-  width: 100%;
+footer {
+  margin-top: 100px;
+ 
+
 }
 
 .my-2 {
@@ -223,6 +221,9 @@ h4 {
 .social-icon {
   color: #fff;
 }
+.social-icons {
+  padding: 400px 0 0 0;
+}
 ul.social-icons {
   margin-top: 10px;
 }
@@ -230,6 +231,7 @@ ul.social-icons {
   vertical-align: top;
   display: inline;
   height: 100px;
+  
 }
 .social-icons a {
   color: #fff;
