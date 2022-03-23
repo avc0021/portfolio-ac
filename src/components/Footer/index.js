@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <section className="footer">
+    <section className="footer" style={{textAlign:"center"}}>
       <div className="footer-social-icons">
         <ul className="social-icons">
           <li>

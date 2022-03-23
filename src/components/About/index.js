@@ -7,7 +7,7 @@ function About() {
     <section className="my-5" >
       
       <div className="my-2">
-      <img src={coverImage} className="my-2" style={{ width: "25%" }} alt="cover" />
+      <img src={coverImage} className="coverImg" style={{ width: "25%" }} alt="cover" />
       <h1 id="about">About Me</h1>
         <p>
         Full Stack Web Developer leveraging a background in biotechnology and music to build life-enhancing user experiences on mobile and web applications. 

@@ -3,8 +3,8 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 main {
-	margin: 0 auto;
-	max-width: 90%;
+  margin: 0 auto;
+  max-width: 90%;
   padding: 50px 30px;
 
 }
@@ -12,8 +12,6 @@ main {
 * {
   box-sizing: border-box;
 }
-
-
 
 body {
   margin: 0;
@@ -30,12 +28,9 @@ body {
   background-image: url('./assets/background/mtn2.jpg');
   width: 100%;
   height: 100%;
-  color: var(--light);
   position: relative;
   min-height: 100vh;
-
 }
-
 
 .header {
   margin-top: 20px;
@@ -101,54 +96,191 @@ body {
   outline: none;
 }
 
-.footer {
-  align-items: center;
-  position: absolute;
-  padding: 10px 10px 0px 10px;
-  bottom: 0;
-  width: 100%;
+p {
+  padding: 50px 50px 50px 50px;
+}
+
+img {
+  padding: 5px 7px 5px 5px;
+  float: left; 
+}
+
+footer {
+  margin-top: 100px;
 }
 
 .my-2 {
     float: left; 
-    padding: 20px 20px 20px 0;
-    border-radius: 15%;
+    padding: 20px 20px 20px 20;
+    border-radius: 1%;
+    background-color:#fff9f69c;
+    box-shadow: 5px 5px 8px #020202;
+    text-shadow: rgb(252, 249, 249) 0px 0px 10px;
+}
+
+.my-5 {
+  padding: 100px 0 0 100px;
+}
+
+.allResume {
+  margin-right: 500px;
+  border-radius: 1%;
+  background-color:#fff9f69c;
+  box-shadow: 5px 5px 8px #020202;
+  text-shadow: rgb(252, 249, 249) 0px 0px 10px;
+}
+
+h1 {
+  padding: 0 0 0 70px;
+  font-size:xx-large;
+}
+
+h2, h3 {
+  padding: 0 0 0 70px;
+  font-size: larger;
+  font-style: italic;
+}
+
+.descr {
+  padding: 0 0 0 70px;
 }
 
 h4 {
   margin: 1% 0 1% 0;
 }
 
+.front, .back, .other {
+  padding: 10px 10px 10px 70px;
+}
+
 ._12 {
   font-size: 1.2em;
 }
+
 ._14 {
   font-size: 1.4em;
 }
-ul {
-  padding:0;
-  list-style: none;
+
+.p-1 {
+  float: left; 
+  padding: 20px 20px 20px 20;
+  border-radius: 0.5%;
+  background-color:#fff9f69c;
+  box-shadow: 5px 5px 8px #020202;
+  text-shadow: rgb(252, 249, 249) 0px 0px 10px;
+  margin-bottom: 50px;
+  margin-right: 950px;
+  margin-left: 80px;
 }
+
+.contact-c {
+  float:left; 
+  padding: 20px 20px 20px 20;
+  border-radius: 1%;
+  background-color:#fff9f69c;
+  box-shadow: 5px 5px 8px #020202;
+  text-shadow: rgb(252, 249, 249) 0px 0px 10px;
+  position: center;
+}
+
+.projects-m {
+  padding: 50px 0 0 0;
+}
+
+.projects-bt, .projects-iru {
+  margin-right: 500px;
+}
+
+.portfolio {
+ padding: 0px 50px 0px 70px;
+ text-decoration: underline;
+
+}
+
+.contact-c {
+  width:30%;
+  padding: 0 30px 30px 30px;
+  margin-top: 40px;
+  margin-left: 500px;
+
+  padding: 10px;
+}
+
+.input {
+  padding: 5px 5px 5px 10px;
+}
+
+.submit {
+  margin-left: 10px;
+  background-color: #cadde9;
+  border-radius: 3px;
+  border: 1px solid #5496c5;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #246594;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+
 .footer-social-icons {
   width: 350px;
   display:block;
   margin: 0 auto;
 }
+
 .social-icon {
   color: #fff;
 }
+
+.social-icons {
+  padding: 600px 0 0 0;
+}
+
 ul.social-icons {
   margin-top: 10px;
 }
+
 .social-icons li {
   vertical-align: top;
   display: inline;
   height: 100px;
 }
+
 .social-icons a {
   color: #fff;
   text-decoration: none;
 }
+
 .fa-github {
   padding:10px 14px;
   -o-transition:.5s;
@@ -158,6 +290,7 @@ ul.social-icons {
   transition: .5s;
   background-color: #322f30;
 }
+
 .fa-github:hover {
   background-color: #3d5b99;
 }
@@ -171,9 +304,11 @@ ul.social-icons {
   transition: .5s;
   background-color: #322f30;
 }
+
 .fa-linkedin:hover {
   background-color: #0073a4;
 }
+
 .fa-instagram {
   padding:10px 14px;
   -o-transition:.5s;
@@ -183,9 +318,61 @@ ul.social-icons {
   transition: .5s;
   background-color: #322f30;
 }
+
 .fa-instagram:hover {
   background-color: #e25714;
 }
+
+@media screen and (max-width: 980px) {
+  .p-p {
+    float: left; 
+  padding: 2020px 20px 20px 20;
+  border-radius: 0.5%;
+  background-color:#fff9f69c;
+  box-shadow: 5px 5px 8px #020202;
+  text-shadow: rgb(252, 249, 249) 0px 0px 10px;
+  margin-bottom: 50px;
+  margin-right: 0px;
+  margin-left: 80px;
+  }
+}
+  @media screen and (max-width: 768px) {
+    .p-p {
+      float: left; 
+    padding: 2020px 20px 20px 20;
+    border-radius: 0.5%;
+    background-color:#fff9f69c;
+    box-shadow: 5px 5px 8px #020202;
+    text-shadow: rgb(252, 249, 249) 0px 0px 10px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+    margin-left: 80px;
+    }
+  }
+  @media screen and (max-width: 575px) {
+
+    .header-logo {
+      
+      width: 10000%;
+    }
+  
+    .section-title {
+      width: 95%;
+    }
+  
+    .contact-info {
+      text-align: center;
+    }
+  
+    .contact-info > * {
+      flex: 0 100%;
+    }
+    .contact-form {
+      order: 3;
+  }
+}
+
+
 
 
 

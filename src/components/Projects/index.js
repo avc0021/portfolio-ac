@@ -7,13 +7,22 @@ import Project4 from '../Project4'
 function Projects () {
 
     return (
-      <section className="projects">
+      <section className="projects-m">
+              <div className="p-1">
               <Project1/>
+              </div>
+              <div className="p-1">
               <Project2/>
+              </div>
+              <div className="p-1">
               <Project3/>
+              </div>
+              <div className="p-1">
               <Project4/>
+              </div>
       </section>
     )
   }
   
 export default Projects;
+
