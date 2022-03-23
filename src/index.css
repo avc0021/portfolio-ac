@@ -134,7 +134,9 @@ img {
   margin-left: 80px;
 
 }
-
+h1, h2, h3 {
+  padding: 0 0 0 50px;
+}
 h4 {
   margin: 1% 0 1% 0;
 }
@@ -174,6 +176,11 @@ ul {
   box-shadow: 5px 5px 8px #020202;
   text-shadow: rgb(252, 249, 249) 0px 0px 10px;
   position: center;
+}
+
+.portfolio {
+ padding: 50px 50px 50px 500px;
+
 }
 .footer-social-icons {
   width: 350px;

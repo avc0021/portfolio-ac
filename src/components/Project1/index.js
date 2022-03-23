@@ -9,7 +9,9 @@ function Project1 () {
           <div className="mns">
             <h3 className="mns-1">My Night Sky</h3>
             <p>An app that tells you what is in the stars above you based on your geolocation or city input.</p>
+            <h3>
             <a href="https://github.com/coevpen/my-night-sky" >View Project on GitHub</a>
+            </h3>
           </div>
       </section>
     )

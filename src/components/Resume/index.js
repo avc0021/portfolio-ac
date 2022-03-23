@@ -23,7 +23,7 @@ function Resume() {
         <ul>Express</ul>
         <ul>MySql, Sequelize</ul>
         <ul>MonogoDB, Mongoose</ul>
-        <ul>REST</ul>REST
+        <ul>REST</ul>
         
         <h2 className="resume">Other Proficiences</h2>
         
