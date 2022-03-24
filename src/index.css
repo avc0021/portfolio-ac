@@ -3,8 +3,8 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 main {
-	margin: 0 auto;
-	max-width: 90%;
+  margin: 0 auto;
+  max-width: 90%;
   padding: 50px 30px;
 
 }
@@ -12,8 +12,6 @@ main {
 * {
   box-sizing: border-box;
 }
-
-
 
 body {
   margin: 0;
@@ -121,10 +119,7 @@ footer {
 }
 
 .my-5 {
-  
-  margin-bottom: 50px;
-  margin-right: 50px;
-  margin-left: 80px;
+  padding: 100px 0 0 100px;
 }
 
 .allResume {
@@ -155,7 +150,7 @@ h4 {
 }
 
 .front, .back, .other {
-  padding: 0 0 0 70px;
+  padding: 10px 10px 10px 70px;
 }
 
 ._12 {
@@ -169,17 +164,13 @@ h4 {
 .p-1 {
   float: left; 
   padding: 20px 20px 20px 20;
-  border-radius: 1%;
+  border-radius: 0.5%;
   background-color:#fff9f69c;
   box-shadow: 5px 5px 8px #020202;
   text-shadow: rgb(252, 249, 249) 0px 0px 10px;
   margin-bottom: 50px;
-  margin-right: 150px;
+  margin-right: 950px;
   margin-left: 80px;
-}
-
-.p-1 {
-  padding: 20px 20px 20px 20;
 }
 
 .contact-c {
@@ -272,7 +263,7 @@ h4 {
 }
 
 .social-icons {
-  padding: 400px 0 0 0;
+  padding: 600px 0 0 0;
 }
 
 ul.social-icons {
@@ -331,6 +322,57 @@ ul.social-icons {
 .fa-instagram:hover {
   background-color: #e25714;
 }
+
+@media screen and (max-width: 980px) {
+  .p-p {
+    float: left; 
+  padding: 2020px 20px 20px 20;
+  border-radius: 0.5%;
+  background-color:#fff9f69c;
+  box-shadow: 5px 5px 8px #020202;
+  text-shadow: rgb(252, 249, 249) 0px 0px 10px;
+  margin-bottom: 50px;
+  margin-right: 0px;
+  margin-left: 80px;
+  }
+}
+  @media screen and (max-width: 768px) {
+    .p-p {
+      float: left; 
+    padding: 2020px 20px 20px 20;
+    border-radius: 0.5%;
+    background-color:#fff9f69c;
+    box-shadow: 5px 5px 8px #020202;
+    text-shadow: rgb(252, 249, 249) 0px 0px 10px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+    margin-left: 80px;
+    }
+  }
+  @media screen and (max-width: 575px) {
+
+    .header-logo {
+      
+      width: 10000%;
+    }
+  
+    .section-title {
+      width: 95%;
+    }
+  
+    .contact-info {
+      text-align: center;
+    }
+  
+    .contact-info > * {
+      flex: 0 100%;
+    }
+    .contact-form {
+      order: 3;
+  }
+}
+
+
 
 
 
