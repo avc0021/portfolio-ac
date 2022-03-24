@@ -8,7 +8,7 @@ import {HashRouter} from 'react-router-dom'
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter basename={process.env.PUBLIC_URL} hashType="slash">
+    <HashRouter basename={process.env.PUBLIC_URL+"portfolio-ac/#"} hashType="slash">
       <App/>
     </HashRouter>, document.getElementById('root'));
   </React.StrictMode>,
