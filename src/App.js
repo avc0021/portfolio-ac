@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
 import About from './components/About';
 import Resume from './components/Resume';
@@ -9,26 +9,31 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
       <div className= 'App'>
         <Header/> 
         <div className='content'>
-          
-          <Route exact path="/" component={About}/>
-
-            <Route exact path="/about" component={About}/>
- 
-            <Route exact path="/projects" component={Projects}/>
-
-            <Route exact path="/resume" component={Resume}/>
-
-            <Route exact path="/contact" component={Contact}/>
-
-          
+          <Switch>
+          <Route exact path="/">
+              <About />
+            </Route>
+            <Route exact path="/about">
+              <About />
+            </Route>
+            <Route exact path="/projects">
+              <Projects />
+            </Route>
+            <Route exact path="/resume">
+              <Resume />
+            </Route>
+            <Route exact path="/contact">
+              <Contact />
+            </Route>
+          </Switch>
         </div>
         <Footer/>
       </div>
-    </HashRouter>
+    </Router>
 
   );
 }  

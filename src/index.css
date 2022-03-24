@@ -116,7 +116,8 @@ footer {
     background-color:#fff9f69c;
     box-shadow: 5px 5px 8px #020202;
     text-shadow: rgb(252, 249, 249) 0px 0px 10px;
-}
+    margin-right: 100px;
+  }
 
 .my-5 {
   padding: 100px 0 0 100px;
