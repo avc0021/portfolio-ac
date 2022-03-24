@@ -1,6 +1,7 @@
-import React from 'react';
+//import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
+//import Navbar from './components/Navbar'
 import About from './components/About';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
@@ -39,4 +40,3 @@ function App() {
 }  
 
 export default App;
-
