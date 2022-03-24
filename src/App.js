@@ -1,5 +1,5 @@
 //import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
 //import Navbar from './components/Navbar'
 import About from './components/About';
@@ -43,4 +43,5 @@ function App() {
 export const history = createBrowserHistory({
   basename: process.env.PUBLIC_URL
 });
+
 export default App;
