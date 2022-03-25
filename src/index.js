@@ -4,13 +4,11 @@ import './index.css';
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {HashRouter} from 'react-router-dom'
+//import {HashRouter} from 'react-router-dom'
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter basename={process.env.PUBLIC_URL+"portfolio-ac/#"} hashType="slash">
       <App/>
-    </HashRouter>, document.getElementById('root'));
   </React.StrictMode>,
   document.getElementById('root')
 );
