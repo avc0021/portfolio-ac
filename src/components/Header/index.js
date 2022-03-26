@@ -9,9 +9,9 @@ function Header ({ currentPage, handlePageChange }) {
       <section className="header">
         <section className="header-top">
           <section className="header-top__logo">
-            <a href="/about" className="header-logo">
+            <div className="header-logo">
             <img src={logo} className="my-6" alt="cover" />
-            </a>
+            </div>
           </section>
           <section className="header-top__navbar">
             <section className="header-top__navigation">
