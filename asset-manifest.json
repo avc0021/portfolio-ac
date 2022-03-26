@@ -1,21 +1,21 @@
 {
-  "files": {
-    "main.css": "/portfolio-ac/static/css/main.da95dbd8.css",
-    "main.js": "/portfolio-ac/static/js/main.2bdbcdd8.js",
-    "static/js/787.7c2f9f44.chunk.js": "/portfolio-ac/static/js/787.7c2f9f44.chunk.js",
-    "static/media/moon.png": "/portfolio-ac/static/media/moon.53505e10171a300269e9.png",
-    "static/media/mtn2.jpg": "/portfolio-ac/static/media/mtn2.1de94d8852e4d4473726.jpg",
-    "static/media/social.png": "/portfolio-ac/static/media/social.b2fbf5d7934480c61893.png",
-    "static/media/aj.jpg": "/portfolio-ac/static/media/aj.42844c225c2974ea4169.jpg",
-    "static/media/budget.png": "/portfolio-ac/static/media/budget.367a3dc7bf6b45261dd4.png",
-    "static/media/iru.png": "/portfolio-ac/static/media/iru.0e3e38dd94d5fe2e38a8.png",
-    "index.html": "/portfolio-ac/index.html",
-    "main.da95dbd8.css.map": "/portfolio-ac/static/css/main.da95dbd8.css.map",
-    "main.2bdbcdd8.js.map": "/portfolio-ac/static/js/main.2bdbcdd8.js.map",
-    "787.7c2f9f44.chunk.js.map": "/portfolio-ac/static/js/787.7c2f9f44.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.da95dbd8.css",
-    "static/js/main.2bdbcdd8.js"
-  ]
+  "main.css": "/portfolio-ac/static/css/main.81b4ec5f.chunk.css",
+  "main.js": "/portfolio-ac/static/js/main.3c0c2fbe.chunk.js",
+  "main.js.map": "/portfolio-ac/static/js/main.3c0c2fbe.chunk.js.map",
+  "static/js/1.7d8a5b69.chunk.js": "/portfolio-ac/static/js/1.7d8a5b69.chunk.js",
+  "static/js/1.7d8a5b69.chunk.js.map": "/portfolio-ac/static/js/1.7d8a5b69.chunk.js.map",
+  "static/js/2.cc0d8b30.chunk.js": "/portfolio-ac/static/js/2.cc0d8b30.chunk.js",
+  "static/js/2.cc0d8b30.chunk.js.map": "/portfolio-ac/static/js/2.cc0d8b30.chunk.js.map",
+  "runtime~main.js": "/portfolio-ac/static/js/runtime~main.bfe2d4c9.js",
+  "runtime~main.js.map": "/portfolio-ac/static/js/runtime~main.bfe2d4c9.js.map",
+  "static/media/aj.jpg": "/portfolio-ac/static/media/aj.f3f12256.jpg",
+  "static/media/moon.png": "/portfolio-ac/static/media/moon.b447d5e5.png",
+  "static/media/social.png": "/portfolio-ac/static/media/social.45e3ec70.png",
+  "static/media/budget.png": "/portfolio-ac/static/media/budget.b65ff9fc.png",
+  "static/media/iru.png": "/portfolio-ac/static/media/iru.703dd08d.png",
+  "static/media/index.css": "/portfolio-ac/static/media/mtn2.fd71be5e.jpg",
+  "static/css/main.81b4ec5f.chunk.css.map": "/portfolio-ac/static/css/main.81b4ec5f.chunk.css.map",
+  "index.html": "/portfolio-ac/index.html",
+  "precache-manifest.5db6174295fda40b94c5aa591c943fb3.js": "/portfolio-ac/precache-manifest.5db6174295fda40b94c5aa591c943fb3.js",
+  "service-worker.js": "/portfolio-ac/service-worker.js"
 }
