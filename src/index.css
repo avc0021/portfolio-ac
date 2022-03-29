@@ -53,8 +53,7 @@ body {
 }
 
 .header-logo {
-  color: inherit;
-  text-decoration: inherit;
+
   font-size: 100px;
 }
 
@@ -86,14 +85,25 @@ body {
 }
 
 .navbar-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 30px;
-  color: inherit;
-  text-decoration: inherit;
+  color:black;
   text-transform: uppercase;
-  outline: none;
+  text-decoration:none;
+  display: inline-flex;
+  padding: 0 30px 0 0;
+}
+
+a {
+  color:#020202;
+}
+
+a:link {
+  text-decoration: none;
+  color:rgb(221, 203, 203);
+}
+
+a:hover {
+  color:#5496c5;
+  text-decoration: underline;
 }
 
 p {
@@ -116,7 +126,8 @@ footer {
     background-color:#fff9f69c;
     box-shadow: 5px 5px 8px #020202;
     text-shadow: rgb(252, 249, 249) 0px 0px 10px;
-}
+    margin-right: 100px;
+  }
 
 .my-5 {
   padding: 100px 0 0 100px;
@@ -143,6 +154,7 @@ h2, h3 {
 
 .descr {
   padding: 0 0 0 70px;
+  
 }
 
 h4 {

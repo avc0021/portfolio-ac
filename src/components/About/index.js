@@ -1,14 +1,14 @@
 import React from 'react'
 import coverImage from "../../assets/ac1/aj.jpg";
+//import {useHistory} from 'react-router-dom'
 
-function About() {
 
+const About = () => {
   return (
     <section className="my-5" >
-      
       <div className="my-2">
-      <img src={coverImage} className="coverImg" style={{ width: "25%" }} alt="cover" />
-      <h1 id="about">About Me</h1>
+      <img src={coverImage} className="coverImg" style={{ width: "20%" }} alt="cover" />
+      <h1 className="about">About Me</h1>
         <p>
         Full Stack Web Developer leveraging a background in biotechnology and music to build life-enhancing user experiences on mobile and web applications. 
         Recently earned a Certificate in Full Stack Web Development from The University of Texas at San Antonio, with newly developed skills using MongoDB, Express.js, React.js, Node.js, JavaScript, 

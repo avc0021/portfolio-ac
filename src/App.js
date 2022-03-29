@@ -1,37 +1,40 @@
-import React from 'react';
-import { HashRouter, Route } from 'react-router-dom';
+import React, { useState } from 'react';
+//import { BrowserRouter } from 'react-router-dom';
+//import Router from './router/Router.js';
 import Header from './components/Header';
 import About from './components/About';
-import Resume from './components/Resume';
 import Projects from './components/Projects';
-import Contact from './components/Contact'
+import Resume from './components/Resume';
+import Contact from './components/Contact';
+//import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('About');
+  const renderPage =() => {    
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Projects') {
+      return <Projects />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+  }
+  const handlePageChange = (page) => setCurrentPage(page);
+  
   return (
-    <HashRouter>
-      <div className= 'App'>
-        <Header/> 
-        <div className='content'>
-          
-          <Route exact path="/" component={About}/>
-
-            <Route exact path="/about" component={About}/>
- 
-            <Route exact path="/projects" component={Projects}/>
-
-            <Route exact path="/resume" component={Resume}/>
-
-            <Route exact path="/contact" component={Contact}/>
-
-          
-        </div>
-        <Footer/>
-      </div>
-    </HashRouter>
-
+    <div className="App">
+      <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
+      {renderPage()}
+      <Footer />
+    </div>
   );
-}  
+}
+
 
 export default App;
-
