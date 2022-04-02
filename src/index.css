@@ -116,7 +116,7 @@ img {
 }
 
 footer {
-  margin-top: 100px;
+  padding: 100px 0 0 0;
 }
 
 .my-2 {
@@ -127,10 +127,11 @@ footer {
     box-shadow: 5px 5px 8px #020202;
     text-shadow: rgb(252, 249, 249) 0px 0px 10px;
     margin-right: 100px;
+    margin-bottom: 100px;
   }
 
 .my-5 {
-  padding: 100px 0 0 100px;
+  padding: 100px 0 100px 100px;
 }
 
 .allResume {
@@ -268,7 +269,7 @@ h4 {
 }
 
 .social-icons {
-  padding: 600px 0 0 0;
+  padding: 200px 0 0 0;
 }
 
 ul.social-icons {
