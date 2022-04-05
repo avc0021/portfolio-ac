@@ -356,8 +356,10 @@ ul.social-icons {
   @media all and (max-width: 500px) {
 
     .header-logo {
-      
-      width: 10000%;
+      position: relative;
+      background-color: #333;
+      overflow: hidden;
+      width: 10%;
     }
   
     .section-title {
