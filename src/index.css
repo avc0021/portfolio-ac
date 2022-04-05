@@ -131,7 +131,7 @@ footer {
   }
 
 .my-5 {
-  padding: 100px 0 100px 100px;
+  padding: 100px 0 300px 100px;
 }
 
 .allResume {
@@ -232,8 +232,6 @@ h4 {
   line-height: 1.15385;
   outline: none;
   padding: 8px .8em;
-  
-  
   text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
@@ -355,7 +353,7 @@ ul.social-icons {
     margin-left: 80px;
     }
   }
-  @media screen and (max-width: 575px) {
+  @media all and (max-width: 500px) {
 
     .header-logo {
       
