@@ -3,6 +3,7 @@ import Project1 from '../Project1'
 import Project2 from '../Project2'
 import Project3 from '../Project3'
 import Project4 from '../Project4'
+import Project5 from '../Project5'
 
 function Projects () {
 
@@ -19,6 +20,9 @@ function Projects () {
               </div>
               <div className="p-1">
               <Project4/>
+              </div>
+              <div className="p-1">
+              <Project5/>
               </div>
       </section>
     )
