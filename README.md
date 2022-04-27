@@ -5,8 +5,7 @@
   [Description](#description)</br>
   [Install](#install)</br>
   [Usage](#usage)</br>
-  [License](#license)</br>
-  [Contributing](#name)</br>
+  [Contributing](#contributing)</br>
 
 # Description
 This is a single-page application portfolio for a web developer
